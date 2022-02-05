@@ -1,0 +1,102 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestRunner",
+    "children" : [ {
+      "name" : "ProductPurchaseTestRunner",
+      "children" : [ {
+        "name" : "selectMyProduct",
+        "uid" : "ed7ef6a96fb5566e",
+        "parentUid" : "cac94b7d54d5655404b94fb08a172ca1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644037843288,
+          "stop" : 1644037859511,
+          "duration" : 16223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addCart",
+        "uid" : "3c11e100120ccaeb",
+        "parentUid" : "cac94b7d54d5655404b94fb08a172ca1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644037859573,
+          "stop" : 1644037891648,
+          "duration" : 32075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cac94b7d54d5655404b94fb08a172ca1"
+    }, {
+      "name" : "LoginTestRunner",
+      "children" : [ {
+        "name" : "doUserLogin",
+        "uid" : "b673b4a807cb09cf",
+        "parentUid" : "429049b45cbfaf5b62a394f1be8ef2ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644037894855,
+          "stop" : 1644037924783,
+          "duration" : 29928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginWithInvalidEmail",
+        "uid" : "a9a75d8e62ac43f8",
+        "parentUid" : "429049b45cbfaf5b62a394f1be8ef2ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644037924791,
+          "stop" : 1644037958331,
+          "duration" : 33540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginWithWrongPassword",
+        "uid" : "c09483be6898a8fc",
+        "parentUid" : "429049b45cbfaf5b62a394f1be8ef2ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644037958867,
+          "stop" : 1644037992759,
+          "duration" : 33892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "429049b45cbfaf5b62a394f1be8ef2ff"
+    } ],
+    "uid" : "9e7afdbe7e41b29ce0ab7e10c3b29b29"
+  } ]
+}

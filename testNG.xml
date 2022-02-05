@@ -8,11 +8,12 @@
             <class name="TestRunner.ProductPurchaseTestRunner"/>
         </classes>
     </test>
-<!--      <test name="E-commerce portal login">-->
-<!--           <classes>-->
-<!--             <class name="TestRunner.LoginTestRunner"/>-->
-<!--         </classes>-->
-<!--      </test>-->
+
+      <test name="E-commerce portal login">
+           <classes>
+             <class name="TestRunner.LoginTestRunner"/>
+         </classes>
+      </test>
 
 <!--    -->
 <!--    <test name="Purchase Product">-->

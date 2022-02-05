@@ -1,0 +1,68 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name='add-to-cart']\"}\n  (Session info: chrome=98.0.4758.81)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-39CJFFC', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [44cdf4e5805fc1f85a170b7e944e425a, findElement {using=name, value=add-to-cart}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.81, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\HELALK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:1934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1934/devtool..., se:cdpVersion: 98.0.4758.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 44cdf4e5805fc1f85a170b7e944e425a",
+      "children" : [ {
+        "name" : "Add product in cart",
+        "uid" : "3c11e100120ccaeb",
+        "parentUid" : "d5fbf217d70f96a80f58d86674985f0a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644037859573,
+          "stop" : 1644037891648,
+          "duration" : 32075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5fbf217d70f96a80f58d86674985f0a"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".login\"}\n  (Session info: chrome=98.0.4758.81)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'DESKTOP-39CJFFC', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1018de43d7d0c8867dd57808705bbaee, findElement {using=css selector, value=.login}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.81, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\HELALK~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:2001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:2001/devtool..., se:cdpVersion: 98.0.4758.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1018de43d7d0c8867dd57808705bbaee",
+      "children" : [ {
+        "name" : "Test login",
+        "uid" : "a9a75d8e62ac43f8",
+        "parentUid" : "d42ab00baf7073ee793c757148d4656f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644037924791,
+          "stop" : 1644037958331,
+          "duration" : 33540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test login",
+        "uid" : "c09483be6898a8fc",
+        "parentUid" : "d42ab00baf7073ee793c757148d4656f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644037958867,
+          "stop" : 1644037992759,
+          "duration" : 33892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d42ab00baf7073ee793c757148d4656f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

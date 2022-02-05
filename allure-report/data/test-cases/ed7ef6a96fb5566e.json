@@ -1,0 +1,114 @@
+{
+  "uid" : "ed7ef6a96fb5566e",
+  "name" : "Select a product",
+  "fullName" : "TestRunner.ProductPurchaseTestRunner.selectMyProduct",
+  "historyId" : "acbe41de9ac17127f551b2e304b203a9",
+  "time" : {
+    "start" : 1644037843288,
+    "stop" : 1644037859511,
+    "duration" : 16223
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1644037830032,
+      "stop" : 1644037843126,
+      "duration" : 13094
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1644037859561,
+      "stop" : 1644037859561,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logout",
+    "time" : {
+      "start" : 1644037892342,
+      "stop" : 1644037892704,
+      "duration" : 362
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestRunner.ProductPurchaseTestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "TestRunner.ProductPurchaseTestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "selectMyProduct"
+  }, {
+    "name" : "parentSuite",
+    "value" : "E-commerce portal automation"
+  }, {
+    "name" : "suite",
+    "value" : "Purchase Product"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRunner.ProductPurchaseTestRunner"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-39CJFFC"
+  }, {
+    "name" : "thread",
+    "value" : "10464@DESKTOP-39CJFFC.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed7ef6a96fb5566e.json",
+  "parameterValues" : [ ]
+}

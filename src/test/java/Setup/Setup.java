@@ -14,7 +14,7 @@ import java.time.Duration;
 
 public class Setup {
     public WebDriver driver;
-    @BeforeTest(groups = "purchase")
+    @BeforeTest
     public void setUp() throws IOException {
         System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
         ChromeOptions ops = new ChromeOptions();
@@ -37,7 +37,7 @@ public class Setup {
 
     }
 
-    @AfterTest(groups = "purchase")
+    @AfterTest
     public void logout(){
         driver.close();
     }

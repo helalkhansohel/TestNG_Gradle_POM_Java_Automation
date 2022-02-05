@@ -16,7 +16,7 @@ public class ProductPurchase {
     WebDriver driver;
     @FindBy(css = "img")
     List<WebElement> imgProducts;
-    @FindBy(name = "add-to-cart")
+    @FindBy(name = "add-to-cart") //
     WebElement btnAddCart;
     @FindBy(xpath = "//a[contains(text(),\"View cart\")]")
     List<WebElement> viewCart;
@@ -26,11 +26,13 @@ public class ProductPurchase {
     WebElement dropdown;
     @FindBy(className = "fa-search")
     WebElement searchIcon;
+
     public ProductPurchase(WebDriver driver)
     {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
     public void selectProduct() throws InterruptedException {
         imgProducts.get(1).click();
         Thread.sleep(2000);
@@ -38,9 +40,10 @@ public class ProductPurchase {
         select.selectByIndex(3);
         searchIcon.click();
         Thread.sleep(2000);
-        imgProducts.get(1).click();
+       // imgProducts.get(1).click();
     }
     public void addCart() throws InterruptedException {
+       // imgProducts.get(1).click();
         Thread.sleep(2000);
         btnAddCart.click();
         Thread.sleep(2000);

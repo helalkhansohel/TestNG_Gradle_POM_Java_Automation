@@ -1,0 +1,98 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-39CJFFC",
+    "children" : [ {
+      "name" : "10464@DESKTOP-39CJFFC.Test worker(1)",
+      "children" : [ {
+        "name" : "Add product in cart",
+        "uid" : "3c11e100120ccaeb",
+        "parentUid" : "40775eb721e3b31a95679e9301127b2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644037859573,
+          "stop" : 1644037891648,
+          "duration" : 32075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Select a product",
+        "uid" : "ed7ef6a96fb5566e",
+        "parentUid" : "40775eb721e3b31a95679e9301127b2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644037843288,
+          "stop" : 1644037859511,
+          "duration" : 16223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test login",
+        "uid" : "b673b4a807cb09cf",
+        "parentUid" : "40775eb721e3b31a95679e9301127b2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644037894855,
+          "stop" : 1644037924783,
+          "duration" : 29928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test login",
+        "uid" : "c09483be6898a8fc",
+        "parentUid" : "40775eb721e3b31a95679e9301127b2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644037958867,
+          "stop" : 1644037992759,
+          "duration" : 33892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test login",
+        "uid" : "a9a75d8e62ac43f8",
+        "parentUid" : "40775eb721e3b31a95679e9301127b2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644037924791,
+          "stop" : 1644037958331,
+          "duration" : 33540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40775eb721e3b31a95679e9301127b2d"
+    } ],
+    "uid" : "a923f7e12813a0b4238342c40b5490fd"
+  } ]
+}
